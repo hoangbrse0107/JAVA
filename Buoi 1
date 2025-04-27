@@ -1,0 +1,38 @@
+
+// Math.(...)
+// abs 
+// sqrt tra ve double
+// min, max
+//pow  => double
+//Math.PI
+
+import java.util.Scanner;
+public class JavaT4 {
+    public static void main(String[] args) {
+        /*
+        int a = 10;
+        long b = 10000076L;
+        float PI = 3.14F;
+        double d =1.2356D;
+        boolean check = true;
+        System.out.print(a);       // print k xuong dong
+        System.out.println(PI);    // println xuong dong 
+        System.out.println(a + " " + b);
+        
+        */
+    Scanner sc = new Scanner(System.in);
+    int a = 100;
+    int m = a++; // m = a = 100, a ++ => 101;(gan trc roi ms tang)(tangb sau)
+    int b = 200;
+    int n = ++b;// ++b => 101 xong roi moi gan bang n(tang truoc roi moi gans)
+    if(m < n){
+        System.out.println("nho hon!");
+    }
+    
+    System.out.println(a);//101
+    System.out.println(m); //100
+    System.out.println(b);//201
+    System.out.println(n);//201
+    
+    }   
+}
